@@ -1,7 +1,37 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+/* general body settings */
+body {
+  margin: 0;
+  font-weight: 300;
 }
+
+#menu {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  height: 48px;
+  background: #04885c;
+}
+
+#menu #icon {
+  float: left;
+  border-radius: 50%;
+}
+
+#menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* #menu a.active {
+  background-color: #4caf50;
+  color: white;
+} */
