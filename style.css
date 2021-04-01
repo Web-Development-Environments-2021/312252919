@@ -1,7 +1,6 @@
 /* general body settings */
 body {
   margin: 0;
-  font-weight: 300;
   font-family: sans-serif;
 }
 
@@ -9,14 +8,14 @@ body {
 #menu {
   position: fixed;
   width: 100%;
-  margin: 0 auto;
-  height: 48px;
-  background: #1283ce;
+  height: 60px;
+  background: #0f2557;
 }
 
 #menu #icon {
   float: left;
-  height: 48px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
@@ -24,9 +23,9 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 22px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #menu a:hover {
@@ -36,19 +35,28 @@ body {
 
 .section {
   text-align: center;
-  background-color: rgb(255, 255, 255);
-  border-style: groove;
-  border-color: rgb(35, 38, 201);
-  border-radius: 20px;
-  margin-bottom: 200px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  padding-top: 60px;
+}
+
+h2 {
+  background-color: rgb(8, 52, 148);
+  color: #ccc;
+  margin-top: 0px;
+}
+
+section#about p {
+  padding: 0px 20px 0px 20px;
+  font-size: 20px;
+}
+
+section#about h4 {
+  font-size: 25px;
 }
 
 section#contact {
   background-color: #f2f2f2;
-}
-
-h2 {
-  margin-top: 58px;
 }
 
 #container_info {
@@ -56,15 +64,17 @@ h2 {
   justify-content: space-between;
 }
 
-section#about div img#ttt {
-  width: 200px;
-  height: 150px;
+img.about_img {
+  width: 300px;
+  height: 400px;
   padding: 25px;
 }
 
-section#about div img#ggg {
-  width: 150px;
-  height: 200px;
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+td:hover {
+  background-color: #bbbbbb;
 }
 
 /* images section settings*/
