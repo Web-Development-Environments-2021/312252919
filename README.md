@@ -1,4 +1,4 @@
-# Personal website assignment - Guy zaidman
+# Personal website assignment - Guy Zaidman
 
 ### github user name
 Guyzaidman
