@@ -1,5 +1,4 @@
-# assignment1-Guyzaidman
-assignment1-Guyzaidman created by GitHub Classroom.
+# Personal website assignment - Guyzaidman
 
 ### github user name
 Guyzaidman
