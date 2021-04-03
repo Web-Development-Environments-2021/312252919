@@ -10,6 +10,7 @@ body {
   width: 100%;
   height: 60px;
   background: #0f2557;
+  z-index: 1;
 }
 
 #menu #icon {
@@ -113,6 +114,11 @@ td:hover {
 }
 
 /* form settings */
+#form {
+  width: 50%;
+  margin: auto;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 textarea {
